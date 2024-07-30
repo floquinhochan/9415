@@ -16,10 +16,10 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
             color: #fff;
-            overflow: hidden; /* Para garantir que o fundo das estrelas não cause barra de rolagem */
+            overflow: hidden;
         }
         .container {
-            background: rgba(0, 0, 0, 0.7); /* Fundo escuro com transparência para destacar sobre o fundo da imagem */
+            background: rgba(0, 0, 0, 0.7);
             border-radius: 15px;
             padding: 40px;
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
@@ -27,7 +27,7 @@
             max-width: 90%;
             position: relative;
             color: #fff;
-            backdrop-filter: blur(8px); /* Adiciona um efeito de desfoque suave */
+            backdrop-filter: blur(8px);
         }
         h1 {
             color: #ff69b4;
@@ -103,7 +103,7 @@
 
         function moveNo() {
             const noButton = document.getElementById('no');
-            noButton.style.transform = 'translateX(100px)'; // Apenas um exemplo simples de animação
+            noButton.style.transform = 'translateX(100px)';
         }
     </script>
 </body>
